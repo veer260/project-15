@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@1,700&family=Oswald:wght@400;600&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&family=Rakkas&family=Raleway:ital,wght@0,400;0,600;0,700;0,900;1,400&family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* ___________________________________Section-1____________________________________ */
+
+.section-1{
+    background-color: black;
+}
+.navbar{
+    display: flex;
+    padding: 30px 0;
+
+}
+
+.logo-img{
+    width: 100px;
+    margin-left: 70px;
+}
+
+.bars{
+    display: none;
+}
+
+.menu{
+    margin-left: auto;
+    margin-right: 100px;
+
+}
+
+.menu-btn{
+    margin: 0 10px;
+    color: white;
+    background-color: rgba(0,0,0,0);
+    font-family: 'Poppins';
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+.fa{
+    margin: 0 6px;
+    /* width: 0px; */
+    font-size: 0.8rem;
+}
+
+
+.section-1-lower{
+    display: flex;
+    padding: 0 100px;
+    column-gap: 100px;
+}
+
+
+.section-1-body{
+    flex: 2;
+    color: white;
+    font-family: 'poppins';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.section-1-img{
+    width: 400px;
+    flex: 1;
+}
+
+.heading-hello{
+    font-family: 'Roboto';
+    color: rgb(238, 27, 73);
+    font-size: 1rem;
+    letter-spacing: 0.4px;
+}
+
+.section-1-heading{
+    font-size: 3.5rem;
+    font-weight: 600;
+
+}
+
+.section-1-para{
+    font-weight: 300;
+    width: 450px;
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+.about-btn{
+    color: white;
+    font-family: 'poppins';
+    background-color: rgb(231, 28, 69);
+    padding: 10px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    margin-top: 20px;
+    width: 100px;
+}
+
+/* _____________________________________________Section-2_____________________________ */
+.section-2{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 0 200px;
+    column-gap: 20px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.box-1{
+    display: flex;
+    flex-direction: column;
+    font-family: 'poppins';
+    background-color: rgb(37, 35, 35);
+    padding: 20px 30px;
+    /* text-align: left; */
+}
+
+.box-2{
+    background-color: rgb(255, 11, 60);
+}
+
+.box-1-heading{
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-family: 'Roboto';
+}
+
+.box-1-img{
+    width: 80px;
+    position: relative;
+    right: 20px;
+    margin-bottom: 10px;
+}
+
+.box-2-img{
+    margin-top: 20px;
+}
+
+.box-1-para{
+    /* margin-left: 20px; */
+    width: 20ch;
+    font-weight: 300;
+}
+
+.know-btn{
+    /* margin-left: -10px; */
+    padding: 0 10px;
+    color: rgb(255, 19, 66);
+    background-color: rgba(0,0,0,0);
+    border: none;
+    width: 160px;
+    font-family: 'poppins';
+    margin-top: 10px;
+    font-weight: 500;
+    position: relative;
+    right: 30px;
+}
+
+.box-2-btn{
+    color: white;
+}
+
+/* __________________________________________-section-3_____________________________ */
+.section-3{
+    display: flex;
+    color: rgb(231, 28, 69);
+    background-color: black;
+    font-family: 'poppins';
+    padding: 50px 200px;
+    column-gap: 50px;
+}
+
+.section-3-left{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.sec-3-l-head{
+    font-size: 5rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.sec-3-l-head2{
+    color: white;
+}
+
+.sec-3-right{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.sec-3-r-u{
+    display: flex;
+    column-gap: 10px;
+}
+
+.sec-3-r-ur{
+    /* padding: 20px 100px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 300px;
+    background-color: rgb(37, 35, 35) ;
+}
+
+.sec3-box-heading{
+    font-size: 2.5rem;
+}
+
+.sec-3-box-para{
+    color: white;
+    font-weight: 300;
+}
+
+/* ___________________________________________section-4________________________________ */
+.section-4{
+    padding: 30px 200px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'poppins';
+    color: white;
+    background-color: black;
+}
+
+.sec-4-l{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sec-4-para{
+    font-size: 0.7rem;
+    font-weight: 300;
+}
+
+.view-btn{
+    /* padding: 0 0px; */
+    position: relative;
+    bottom: 10px;
+}
+
+/* _______________________________________________section-5______________________________________- */
+.section-5{
+    padding: 40px 200px;
+    font-family: 'poppins';
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.sec-5-up{
+    display: flex;
+    column-gap: 30px;
+}
+
+.img-box{
+    padding: 60px 5px;
+    background-color: rgb(37, 35, 35);
+}
+
+.sec-5-img{
+    height: 220px;
+    width: 420px;
+    object-fit: contain;
+}
+
+.sec-5-head{
+    font-size: 1.1rem;
+    font-weight: 900;
+    margin-top: 10px;
+}
+
+.sec-5-btn{
+    position: relative;
+    /* margin-right: 10px; */
+    /* right: 40px; */
+    bottom: 10px;
+}
+
+.far{
+    margin-left: 10px;
+}
+
+
+/* ______________________________-section-6______________________________________ */
+.section-6{
+    background-color: black;
+    padding: 30px 200px;
+}
+
+.sec-6-body{
+    background-color: rgb(37, 35, 35);
+    padding: 70px 60px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'poppins';
+    align-items: center;
+}
+
+
+
+.sec-6-head{
+    font-size: 2.7rem;
+    font-weight: 600;
+}
+
+.sec-6-para{
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.sec-6-btn{
+    height: 40px;
+}
+
+/* _________________________________________-section-7__________________________________ */
+.section-7{
+    height: 100px;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 30px;
+}
+
+.sec-7-btn{
+    color: white;
+    background-color: black;
+    margin: 0 20px;
+    font-family: 'poppins';
+    font-size: 0.6rem;
+    font-weight: 500;
+}
+
+/* _____________________________-sec-8__________________ */
+.section-8{
+    height: 70px;
+    background-color: rgb(37, 35, 35);
+    display: flex;
+    padding-top: 30px;
+
+}
+
+.sec-8-logo{
+    width: 80px;
+    /* margin-right: 400px; */
+}
+
+.logo{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 50%;  
+}
+
+.logos{
+    margin: 0 auto;
+    display: flex;
+    column-gap: 30px;
+}
+
+
+@media screen and (max-width: 900px){
+    .navbar{
+        justify-content: space-between;
+        align-items: center;
+    }
+    .bars{
+        display: inline-block;
+        color: white;
+        font-size: x-large;
+        margin-right: 40px;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .section-1-lower{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-1-body{
+        margin-top: 30px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .section-1-heading{
+        font-size: 1.5rem;
+    }
+
+    .section-2{
+        flex-wrap: wrap;
+        padding: 0 20px;
+        justify-content: center;
+    }
+
+    .box-1{
+        width: 100px;
+        margin-top: 20px;
+    }
+
+    .box-1-para{
+        font-size: x-small;
+    }
+
+    .section-3{
+        flex-direction: column;
+        padding: 30px;
+        text-align: center;
+        row-gap: 30px;
+    }
+
+
+    .section-4{
+        flex-direction: column;
+        padding: 30px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .sec-3-box-para{
+        font-size: x-small;
+    }
+
+    .section-5{
+        padding: 30px;
+    }
+
+    .sec-5-up{
+        flex-wrap: wrap;
+        
+    }
+
+    .section-6{
+        padding: 30px;
+        flex-direction: column;
+    }
+
+    .sec-6-head{
+        font-size: medium;
+    }
+}
